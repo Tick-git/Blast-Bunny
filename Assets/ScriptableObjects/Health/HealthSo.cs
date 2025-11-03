@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace ScriptableObjects
+namespace ScriptableObjects.Health
 {
-    [CreateAssetMenu]
+    [CreateAssetMenu (fileName = "HealthSo", menuName = "ScriptableObjects/HealthSo")]
     public class HealthSo : ScriptableObject
     {
         [SerializeField] private int maxHealth;

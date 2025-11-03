@@ -1,4 +1,4 @@
-using ScriptableObjects;
+using ScriptableObjects.Health;
 using UnityEngine;
 using UnityEngine.Events;
 
