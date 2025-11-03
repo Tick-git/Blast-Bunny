@@ -2,7 +2,7 @@ using ScriptableObjects.Health;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Health
+namespace HealthSystem
 {
     public class Health : MonoBehaviour, IDamageable
     {
@@ -27,6 +27,8 @@ namespace Health
             {
                 onDeath.Invoke();
             }
+            
+            Debug.Log("Damage taken:" + damage);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Health
+﻿namespace HealthSystem
 {
     public interface IDamageable
     {
