@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1630125518635623855}
   - component: {fileID: 6835613115006618528}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   _bulletPrefab: {fileID: 6333542485661095578, guid: dc3de2c7ceca15c478a86b416c553db1, type: 3}
+  shooterGameObject: {fileID: 0}
 --- !u!1 &1606030163754810263
 GameObject:
   m_ObjectHideFlags: 0
@@ -56,7 +57,7 @@ GameObject:
   - component: {fileID: 4779152094340737279}
   - component: {fileID: 5945014514480785844}
   - component: {fileID: 4601678964280009204}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,7 +131,7 @@ GameObject:
   - component: {fileID: 6413472542530993426}
   - component: {fileID: 6419715008793525020}
   - component: {fileID: 6756244067434719176}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +229,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3267580784037194158}
   - component: {fileID: 8501550428407592454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
