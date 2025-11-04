@@ -4,7 +4,7 @@ using UnityEngine.Events;
 
 namespace HealthSystem
 {
-    public class Health : MonoBehaviour, IDamageable
+    public class Health : MonoBehaviour, IDamageable, IUnpierceable
     {
         [SerializeField] HealthSo healthSo;
         [SerializeField] UnityEvent onDeath;
@@ -28,7 +28,7 @@ namespace HealthSystem
                 onDeath.Invoke();
             }
             
-            Debug.Log("Damage taken:" + damage);
+            Debug.Log($"{gameObject.name} damaged {damage}!");
         }
     }
 }
